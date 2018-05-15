@@ -3,3 +3,7 @@ var playlist = {
   beachHouse: "Space song",
 }
 
+function updatePlaylist(object, artistName, songTitle){
+  object[artistName] = songTitle;
+  
+}
