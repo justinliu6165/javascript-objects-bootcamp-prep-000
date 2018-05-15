@@ -3,12 +3,12 @@ var playlist = {
   beachHouse: "Space song",
 }
 
-function updatePlaylist(playlists, artistName, songTitle){
-  playlists[artistName] = songTitle;
-  return playlists;
+function updatePlaylist(playlist, artistName, songTitle){
+  playlist[artistName] = songTitle;
+  return playlist;
 }
 
-function removeFromPlaylist(playlists, artistName){
-  delete playlists.artistName;
-  return playlists;
+function removeFromPlaylist(playlist, artistName){
+  delete playlist.artistName;
+  return playlist;
 }
