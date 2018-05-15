@@ -1,6 +1,4 @@
-var playlist = {
-  M83: "Wait",
-};
+var playlist = {};
 
 function updatePlaylist(playlist, name, title){
   playlist.name = title;
