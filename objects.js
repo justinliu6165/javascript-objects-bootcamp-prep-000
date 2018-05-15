@@ -1,6 +1,6 @@
 var playlist = {
-  bobDylan: "The times they are a changin",
-  beachHouse: "Space song",
+  'Bob Dylan': "The times they are a changin",
+  'Beach House': "Space song",
 }
 
 function updatePlaylist(playlist, artistName, songTitle){
