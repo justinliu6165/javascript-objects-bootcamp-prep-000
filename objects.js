@@ -3,7 +3,7 @@ var playlist = {
   beachHouse: "Space song",
 }
 
-function updatePlaylist(object, artistName, songTitle){
-  object[artistName] = songTitle;
-  
+function updatePlaylist(playlist, artistName, songTitle){
+  playlist[artistName] = songTitle;
+  returnplaylist;
 }
